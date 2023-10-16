@@ -1,0 +1,13 @@
+#root {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(137, 144, 206);
+}

@@ -1,0 +1,54 @@
+$font-stack: Helvetica, sans-serif;
+
+nav {
+    background-color: rgb(201, 119, 94);
+    padding: 2rem;
+    border: black solid 1px;
+    border-radius: 5rem;
+    margin-top: 3rem;
+
+    ul {
+        li {
+            list-style-type: none;
+            button {
+                border: black solid 1px;
+                border-radius: 0.7rem;
+                padding: 0.5rem 2rem;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
+
+figure {
+    border: black solid 1px;
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(244, 240, 240);
+    margin-top: 3rem;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+
+    img {
+        width: 50%;
+        height: 100%;
+        border-right: black solid 0.5px;
+    }
+
+    div {
+        flex-direction: column;
+        margin: auto;
+
+        figcaption {
+            font: $font-stack;
+            background-color: aqua;
+        }
+
+        p {
+            font: 100% $font-stack;
+        }
+    }
+}
